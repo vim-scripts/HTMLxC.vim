@@ -1,0 +1,5 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1037
+
+I&#039ve found that the default installed programs on my platform include several that specify colors as decimal r,g,b but none offer to show the color as the hexadecimal triplet used in HTML. It got to be very annoying to have to use a color browser or other graphics tool, then manually convert a color I liked to hex, before being able to even try out a color in a Web page I was building.
+
+This small plugin utility just identifies the hex color spec under the cursor and pop-up dialogs (on GUI Vim) or prompts on the Vim commandline (on console Vim) for a decimal r g b -style spec (space-separated) and then inserts it as hex in replacement of the existing hex string.
